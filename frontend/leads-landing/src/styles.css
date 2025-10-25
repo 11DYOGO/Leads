@@ -1,0 +1,27 @@
+:root { --container: 940px; }
+* { box-sizing: border-box; }
+body { font-family: system-ui, Arial, sans-serif; margin: 0; color: #222; background:#fafafa; }
+
+.container { max-width: var(--container); margin: 24px auto; padding: 0 16px; }
+h1 { margin: 0 0 8px; }
+.muted { color: #666; font-size: 14px; }
+
+.row { display:flex; align-items:center; }
+.space { justify-content: space-between; }
+.gap { gap: 8px; }
+
+button { padding: 8px 12px; border: 1px solid #ccc; border-radius: 8px; cursor: pointer; background: white; }
+button:hover { background:#f0f0f0; }
+button.secondary { background:#fff4f4; border-color:#f1c0c0; }
+button.secondary:hover { background:#ffe9e9; }
+
+.tabs { display:flex; gap:8px; margin: 12px 0 16px; }
+.tab { padding:8px 14px; border:1px solid #ddd; background:white; border-radius: 999px; }
+.tab.active { background:#1d4ed8; color:white; border-color:#1d4ed8; }
+
+.card { border:1px solid #e5e5e5; background:white; border-radius:12px; padding:16px; margin:12px 0; box-shadow:0 1px 3px rgba(0,0,0,.04); }
+.desc { margin: 6px 0 12px; }
+.price { font-size:18px; }
+
+.pill { font-size:12px; padding:3px 8px; border:1px solid #aaa; border-radius:999px; margin-left:6px; background:#f7f7f7; }
+.chip { font-size:13px; padding:4px 8px; border:1px solid #ddd; border-radius:999px; background:#f7f7f7; }

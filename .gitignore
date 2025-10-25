@@ -1,0 +1,30 @@
+@"
+# === .NET / Visual Studio ===
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+bin/
+obj/
+out/
+outbox/
+TestResults/
+launchSettings.json
+
+# === React / Node ===
+node_modules/
+dist/
+.env
+*.log
+*.cache
+
+# === Sistema ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*.swp
+*.lock
+"@ | Out-File -Encoding utf8 .gitignore
